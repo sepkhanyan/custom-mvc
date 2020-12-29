@@ -9,5 +9,10 @@
             "tm\\": "vendor/tm",
             "app\\": "app"
         }
+    },
+    "config": {
+        "platform": {
+            "php": "7.1.3"
+        }
     }
 }

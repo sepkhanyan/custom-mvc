@@ -3,7 +3,6 @@
 namespace app\controllers;
 
 use app\models\User;
-use tm\core\base\View;
 
 class UserController extends Controller
 {
