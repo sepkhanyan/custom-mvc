@@ -19,6 +19,14 @@ class ComposerStaticInitdc04f53a3143d7627bdcf385ee510924
         array (
             'Valitron\\' => 9,
         ),
+        'R' => 
+        array (
+            'RedBeanPHP\\' => 11,
+        ),
+        'B' => 
+        array (
+            'BenMajor\\RedSeed\\' => 17,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -33,6 +41,14 @@ class ComposerStaticInitdc04f53a3143d7627bdcf385ee510924
         'Valitron\\' => 
         array (
             0 => __DIR__ . '/..' . '/vlucas/valitron/src/Valitron',
+        ),
+        'RedBeanPHP\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gabordemooij/redbean/RedBeanPHP',
+        ),
+        'BenMajor\\RedSeed\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/benmajor/redseed/src',
         ),
     );
 

@@ -37,6 +37,7 @@ class TasksController extends Controller
         $task = new Task;
         $data = $_POST;
         $data['status'] = 0;
+        $data['edited'] = 0;
         $task->load($data);
         if(!$task->validate($data)){
             $task->getErrors();

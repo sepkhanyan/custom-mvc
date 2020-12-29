@@ -1,7 +1,8 @@
 {
     "name": "task-manager/task-manager",
     "require": {
-        "vlucas/valitron": "^1.4"
+        "vlucas/valitron": "^1.4",
+        "benmajor/redseed": "^1.0"
     },
     "autoload" : {
         "psr-4": {

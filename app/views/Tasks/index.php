@@ -45,7 +45,7 @@
                     <td>
                         <?= $task['description']; ?>
                     </td>
-                    <td class="text-center">
+                    <td class="text-center col-2">
                         <?php if ($auth) : ?>
                             <a type="button" class="btn btn-primary" data-bs-toggle="modal"
                                data-bs-target="#updateModal"

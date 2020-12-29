@@ -4,8 +4,88 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "854556db06fe5089bb088fcdaa4d9897",
+    "content-hash": "1c9f913fb1b2ac587482d5bd9b6cf57a",
     "packages": [
+        {
+            "name": "benmajor/redseed",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/benmajor/RedSeed.git",
+                "reference": "23081a579ec5b29f80205a682f9699ae42907260"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/benmajor/RedSeed/zipball/23081a579ec5b29f80205a682f9699ae42907260",
+                "reference": "23081a579ec5b29f80205a682f9699ae42907260",
+                "shasum": ""
+            },
+            "require": {
+                "gabordemooij/redbean": "*",
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BenMajor\\RedSeed\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Major",
+                    "email": "ben.major88@gmail.com",
+                    "homepage": "https://github.com/benmajor/RedSeed"
+                }
+            ],
+            "description": "RedBeanPHP ORM",
+            "homepage": "https://github.com/benmajor/RedSeed",
+            "time": "2020-08-18T09:34:47+00:00"
+        },
+        {
+            "name": "gabordemooij/redbean",
+            "version": "v5.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gabordemooij/redbean.git",
+                "reference": "fac13cd25445129a64be2bbb4457a7d8a4fb9ef0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/fac13cd25445129a64be2bbb4457a7d8a4fb9ef0",
+                "reference": "fac13cd25445129a64be2bbb4457a7d8a4fb9ef0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RedBeanPHP\\": "RedBeanPHP"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Gabor de Mooij",
+                    "email": "gabor@redbeanphp.com",
+                    "homepage": "https://redbeanphp.com"
+                }
+            ],
+            "description": "RedBeanPHP ORM",
+            "homepage": "https://redbeanphp.com/",
+            "keywords": [
+                "orm"
+            ],
+            "time": "2020-11-27T08:36:10+00:00"
+        },
         {
             "name": "vlucas/valitron",
             "version": "v1.4.9",

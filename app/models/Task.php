@@ -13,6 +13,7 @@ class Task extends Model
         'email' => '',
         'description' => '',
         'status' => '',
+        'edited' => '',
     ];
 
     public $rules = [

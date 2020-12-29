@@ -9,4 +9,6 @@ return array(
     'tm\\' => array($vendorDir . '/tm'),
     'app\\' => array($baseDir . '/app'),
     'Valitron\\' => array($vendorDir . '/vlucas/valitron/src/Valitron'),
+    'RedBeanPHP\\' => array($vendorDir . '/gabordemooij/redbean/RedBeanPHP'),
+    'BenMajor\\RedSeed\\' => array($vendorDir . '/benmajor/redseed/src'),
 );
