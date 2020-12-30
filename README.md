@@ -1,4 +1,5 @@
 # CUSTOM PHP MVC
+This project runs with PHP version 7.3* and MySql version 8.0.22
 
 ----
 ## Installation
