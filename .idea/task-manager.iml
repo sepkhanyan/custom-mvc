@@ -9,8 +9,14 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/benmajor/redseed" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/gabordemooij/redbean" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/tm/core" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/tm/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/vlucas/valitron" />
     </content>
     <orderEntry type="inheritedJdk" />

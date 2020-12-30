@@ -5,7 +5,6 @@ use RedBeanPHP\R;
 
 $query = substr($_SERVER['REQUEST_URI'], 1);
 
-define('WWW', __DIR__);
 define('CORE', dirname(__DIR__) . '/vendor/tm/core');
 define('ROOT', dirname(__DIR__));
 define('APP', dirname(__DIR__) . '/app');
@@ -13,11 +12,18 @@ define('LAYOUT', 'app');
 
 require '../vendor/tm/libs/functions.php';
 require '../vendor/tm/libs/rb.php';
-require '../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-$db = require  '../config/database.php';
+$dotenv = \Dotenv\Dotenv::createImmutable(dirname(__DIR__));
+$dotenv->load();
 
-R::setup( $db['dsn'], $db['user'], $db['pass'] );
+$db = [
+    'dsn' => $_ENV['DB_DSN'],
+    'user' => $_ENV['DB_USER'],
+    'password' => $_ENV['DB_PASSWORD'],
+];
+
+R::setup( $db['dsn'], $db['user'], $db['password'] );
 $admin = R::load( 'users', '1' );
 if(!$admin['login']){
     $users = R::dispense( 'users' );

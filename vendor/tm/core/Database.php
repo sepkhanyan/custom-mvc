@@ -12,12 +12,12 @@ class Database
 
     protected function __construct()
     {
-        $database = require ROOT . '/config/database.php';
+        $database = $_ENV;
         $options = [
             \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION,
             \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC
         ];
-        $this->pdo = new \PDO($database['dsn'], $database['user'], $database['pass'], $options);
+        $this->pdo = new \PDO($database['DB_DSN'], $database['DB_USER'], $database['DB_PASSWORD'], $options);
     }
 
     public static function instance()

@@ -2,7 +2,8 @@
     "name": "task-manager/task-manager",
     "require": {
         "vlucas/valitron": "^1.4",
-        "benmajor/redseed": "^1.0"
+        "benmajor/redseed": "^1.0",
+        "vlucas/phpdotenv": "^5.2"
     },
     "autoload" : {
         "psr-4": {
